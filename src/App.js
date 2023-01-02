@@ -70,6 +70,12 @@ function App() {
               </div>
             </div>
           }
+          <div className="footer">
+          <p>
+            <strong>Developed</strong> by <a href="https://www.linkedin.com/in/viniciusbsarmento" target="_blank">Vinícius Sarmento</a>. The source code is on my
+            <a href="https://github.com/engviniciusbs" target="_blank"> Github</a>
+          </p>
+          </div>
         </div>
       </div>
     </Fragment>

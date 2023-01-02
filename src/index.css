@@ -12,6 +12,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #111927;
+  background-image: 
+      radial-gradient(at 47% 33%, hsl(207.88, 100%, 20%) 0, transparent 59%), 
+      radial-gradient(at 82% 65%, hsl(218.00, 39%, 11%) 0, transparent 55%)
 }
 
 p {
@@ -27,6 +31,11 @@ h1 {
   font-size: 6rem;
 }
 
+a {
+  text-decoration: none;
+  color: rgb(161, 161, 161);
+}
+
 .app {
   width: 100%;
   height: 100vh;
@@ -37,6 +46,7 @@ h1 {
 
 .app:before{
   content: '';
+  opacity: 10%;
   background: url('./assets/rain.jpg') no-repeat center center/cover;
   position: absolute;
   width: 100%;
@@ -106,11 +116,11 @@ h1 {
   justify-content: space-between;
 }
 
-@media only screen and (max-width: 990px){
+/* @media only screen and (max-width: 990px){
   .container {
     height: auto;
   }
-}
+} */
 
 .app .top {
   width: 100%;
@@ -132,9 +142,20 @@ h1 {
   margin: 1rem auto;
   padding: 1rem;
   border-radius: 12px;
-  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(17px) saturate(180%);
+  -webkit-backdrop-filter: blur(17px) saturate(180%);
+  background-color: rgba(80, 80, 80, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.125);
 }
 
 .bold {
   font-weight: 700;
+}
+
+.app .footer{
+  text-align: center;
+}
+
+.app .footer p{
+  font-size: 1rem;
 }
