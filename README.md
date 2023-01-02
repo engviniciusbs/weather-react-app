@@ -1,1 +1,1 @@
-weather.viniciusbsarmento.com
+tempo.viniciusbsarmento.com
