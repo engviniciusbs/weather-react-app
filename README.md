@@ -1,1 +1,1 @@
-tempo.viniciusbsarmento.com
+https://vinicius-weather-react-app.herokuapp.com/
